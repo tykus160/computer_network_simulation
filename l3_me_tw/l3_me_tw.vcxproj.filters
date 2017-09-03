@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="doc">
+      <UniqueIdentifier>{7b11094c-8b14-48cf-a435-72d749ec9dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2ed22b54-8648-4af8-b48b-430bd19f4cf6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\sc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\message.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\computer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\router.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\buffer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\link.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\device.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rng.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event_scheduling.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\students_t_distribution.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\sc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\message.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\router.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\device.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\buffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\computer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\link.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rng.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event_scheduling.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="doc\zadanie 1.pdf">
+      <Filter>doc</Filter>
+    </None>
+    <None Include="doxyfile.cfg" />
+    <None Include="doc\zadanie 2.pdf">
+      <Filter>doc</Filter>
+    </None>
+    <None Include="doc\zadanie 3.pdf">
+      <Filter>doc</Filter>
+    </None>
+    <None Include="doc\zadanie 4.pdf">
+      <Filter>doc</Filter>
+    </None>
+    <None Include="doc\raport_koncowy.pdf">
+      <Filter>doc</Filter>
+    </None>
+  </ItemGroup>
+</Project>
